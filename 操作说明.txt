@@ -329,6 +329,11 @@ service nginx restart #重启
 在浏览器中打开服务器IP地址，会看到下面的界面，说明Nginx安装成功。
 
 例如推流、拉流地址
-推流：rtmp://192.168.1.189/wanglei/test
-拉流：rtmp://192.168.1.189/wanglei/test
-      http://192.168.1.189/wanglei/test.m3u8
+推流：rtmp://1.13.13.98/wanglei/test
+拉流：rtmp://1.13.13.98/wanglei/test
+      http://1.13.13.98/wanglei/test.m3u8
+
+
+推流：rtmp://1.13.13.98:1935/wanglei/test
+拉流：rtmp://1.13.13.98:1935/wanglei/test
+      http://1.13.13.98:1935/wanglei/test.m3u8
